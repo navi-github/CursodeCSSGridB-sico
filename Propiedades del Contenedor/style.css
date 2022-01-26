@@ -1,0 +1,47 @@
+.contenedor {
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px 100px;
+    grid-auto-flow: column;
+    gap: 30px;
+}
+
+.item {
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.number {
+    margin: 0;
+    height: 2.5rem;
+    width: 1.5rem;
+    text-align: center;
+}
+
+.n1, .n4 {
+    background-color: green;
+}
+
+.n2, .n5 {
+    background-color: darkgreen;
+}
+
+.n3, .n6 {
+    background-color: #0B4619;
+}
+
+.top {
+    background-color: greenyellow;
+}
+
+.middle {
+    background-color: green;
+}
+
+.bottom {
+    background-color: darkgreen;
+}
